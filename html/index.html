@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <link rel="icon" href="../assets/streamline-icon-text-formating-hash@48x48.PNG">
+    <title>Jogo da velha</title>
+</head>
+<body>
+    <header>
+        <h1>Jogo da velha</h1>
+        <h3 class="efeito "> <a href="sobre.html">Saiba mais sobre o jogo</a> </h3>
+        <h3 class="h3-1 efeito"><a href="redes.html">Onde me encontrar</a></h3>
+    </header>
+    <main>
+        <div class="players-name">
+            <p>Insira o nome dos jogadores nos campos a baixo:</p>
+
+            <input type="text" placeholder="Jogador 1" id="jogador1"> 
+            <p class="e">X</p>
+            <input type="text" placeholder="Jogador 2" id="jogador2">
+
+            <button onclick=" window.location.reload()">Reset</button>
+            
+            <div class="opacity"></div>
+        </div>
+
+        <div class="stage">
+            <div>
+                <div id="0" class="square"></div>
+                <div id="1" class="square"></div>
+                <div id="2" class="square  no-border-right"></div>
+            </div>
+            <div>
+                <div id="3" class="square"></div>
+                <div id="4" class="square"></div>
+                <div id="5" class="square  no-border-right"></div>
+            </div>
+            <div>
+                <div id="6" class="square no-border-bottom"></div>
+                <div id="7" class="square no-border-bottom"></div>
+                <div id="8" class="square no-border-bottom no-border-right"></div>
+            </div>
+        </div>
+    </main>
+
+    <script src="../js/game.js"></script>
+    <script src="../js/interface.js"></script>
+
+</body>
+</html>
