@@ -127,13 +127,15 @@ button:hover{
     border-right: 0px;
 }
 .o{
+    /* Para o coração ficar centralizado no quadrado */
     position: relative;
 }
 .o:after{
     position: absolute;
-    content: "\1F49C";
+    content: "\1F49C";/*Peguei no site emojipedia*/
     font-size: 110px;
     line-height: 150px;
+    /* tudo zero para centralizar o elemento no quadrado */
     top: 0;
     bottom: 0;
     left: 0;

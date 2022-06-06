@@ -24,7 +24,7 @@ function handleMove(position){
     }
 
     if(board[position] == ''){
-
+        //Tabuleiro com a posição - símbolo do jogador da vez
         board[position] = symbols[playerTime];
 
         gameOver = isWin();

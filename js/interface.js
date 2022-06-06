@@ -5,13 +5,12 @@ document.addEventListener('DOMContentLoaded', () =>{
     squares.forEach((square) => {
         square.addEventListener('click', handleClick);
     })
-    let button = document.getElementsByTagName('button')[0];
 })
 
 //Quando o jogo acabar
 function handleClick(event){
 
-    let square = event.target;
+    let square = event.target;//target é o elemento que sofreu o event/ação
     let position = square.id;
 
 
